@@ -1,0 +1,18 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "description": "this is node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lm"
+  ],
+  "author": "lm",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4"
+  }
+}

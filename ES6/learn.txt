@@ -1,0 +1,5 @@
+// 创建文件夹
+mkdir  xxx
+
+// 创建文件
+touch xx.xx
