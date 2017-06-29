@@ -40,6 +40,57 @@ if (true) {
   console.log(tmp); // 123
 }
 
+//不允许重复声明,因此，不能在函数内部重新声明参数。
+
+let now20170628093238 = 1;
+// 报错 Identifier 'now20170628093238' has already been declared
+//let now20170628093238 = 2;
+// Identifier 'a' has already been declared
+// function add(a,b){
+//   let a;
+// }
+
+//ES6 声明变量的六种方法 ,ES5 只有两种声明变量的方法：var命令和function命令。ES6除了添加let和const命令，后面章节还会提到，另外两种声明变量的方法：import命令和class命令。所以，ES6 一共有6种声明变量的方法。
+
+
+// 变量的解构赋值
+
+//let [a, b, c] = [1, 2, 3];
+//
+//let [a, b, d] = [1, [2, 3], 4];
+// b = [2,3]
+//
+//let [a, [b], d] = [1, [2, 3], 4];
+// b = 2
+// 数组和对象解构赋值 可以用const  如果没有指定值为undefined
+const { fo, bar } = { foo: "aaa", bar: "bbb" };
+console.log(fo);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

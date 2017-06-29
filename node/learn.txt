@@ -50,6 +50,10 @@ http://javascript.ruanyifeng.com/oop/basic.html
 
 
 
+不要直接给exports 直接赋值  正确的使用是给exports 添加属性
+
+
+
 
 
 
