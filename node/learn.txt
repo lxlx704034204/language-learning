@@ -1,0 +1,6 @@
+lodash 的使用
+
+npm install --save  (在package.json 加上声明)
+
+
+cnpm 
