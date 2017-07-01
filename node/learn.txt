@@ -1,6 +1,210 @@
+<<<<<<< HEAD
 lodash 的使用
 
 npm install --save  (在package.json 加上声明)
 
 
 cnpm 
+=======
+2017-06-22 11:07:09
+
+node 视频播放地址 https://forum.leancloud.cn/t/node-js/12451
+
+// 项目依赖树
+npm list
+
+// 开发依赖和运行依赖
+
+npm install xxx --save-dev
+
+npm install xxx --save
+
+// 执行package.json 里面scripts
+npm run start
+
+
+curl  命令行的http client
+
+
+// Promise
+http://liubin.org/promises-book/
+
+
+视频教程
+http://study.163.com/course/courseLearn.htm?courseId=1003788021#/learn/video?lessonId=1004397372&courseId=1003788021
+
+
+http://cnodejs.org/getstart
+
+http://koa.bootcss.com/
+
+https://eggjs.org/?spm=5176.100239.0.0.N0SJOF
+
+
+
+为什么叫node
+每个node进程都构成这个网络应用中的一个节点，这是它名字所含意义的真谛
+
+谷歌V8 引擎的学习？？？
+
+单线程和多线程？？？
+
+C/S又称Client/Server或客户/服务器模式。服务器通常采用高性能的PC、工作站或小型机，并采用大型数据库系统，如Oracle、Sybase、Informix或 SQL Server。客户端需要安装专用的客户端软件。
+
+B/S是Brower/Server的缩写，客户机上只要安装一个浏览器（Browser），如Netscape Navigator或Internet Explorer，服务器安装Oracle、Sybase、Informix或 SQL Server等数据库。浏览器通过Web Server 同数据库进行数据交互。
+
+
+http://javascript.ruanyifeng.com/oop/basic.html
+
+
+
+不要直接给exports 直接赋值  正确的使用是给exports 添加属性
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------
+>>>>>>> f9eebdf21696025ec3ff5a81802069f6e79f1be3
