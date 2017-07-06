@@ -4,7 +4,7 @@ lodash 的使用
 npm install --save  (在package.json 加上声明)
 
 
-cnpm 
+cnpm
 =======
 2017-06-22 11:07:09
 
@@ -61,7 +61,8 @@ http://javascript.ruanyifeng.com/oop/basic.html
 不要直接给exports 直接赋值  正确的使用是给exports 添加属性
 
 
-
+meng
+lm10086lm
 
 
 

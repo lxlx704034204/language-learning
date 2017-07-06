@@ -1,0 +1,7 @@
+2017-07-06T02:17:25.405568Z 1 [Note] A temporary password is generated for root@localhost: a!a6:x+y&joH
+
+
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('lm0909');
+
+
+mysql  -h localhost -u root -p
