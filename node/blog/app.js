@@ -1,7 +1,7 @@
 // 应用程序的入口文件
 let express = require('express');
 let swig = require('swig');
-let mongoose = require('mongoose');
+let mysql = require('mysql');
 let bodyParser = require('body-parser');
 var app = express();
 
@@ -16,12 +16,13 @@ app.use('/admin',require('./routers/admin'));
 app.use('/api',require('./routers/api'));
 app.use('/',require('./routers/main'));
 
-
-mongoose.connect('mongodb://localhost:27017/blog',function(err){
-  if(err){
-    console.log('数据库连接失败');
-  } else {
-    console.log('数据库连接成功');
-    app.listen(8081);
-  }
+var connection = mysql.createConnection({
+  host: 'localhost', //主机
+  user: 'root', //MySQL认证用户名
+  password: 'lm0909', //MySQL认证用户密码
+  port: '3306', //端口号
+  database: 'nodesample'
 });
+connection.connect();
+app.listen(8081);
+connection.end();

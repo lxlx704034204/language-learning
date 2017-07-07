@@ -13,7 +13,7 @@ router.use(function(req,res,next){
 
 router.post('/register',function(req,res,next){
   console.log(req.body);
-  res.json(req.body.name);
+  res.json(req.body);
 });
 
 module.exports = router;
