@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app_1">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../lib/angular.min.js" charset="utf-8"></script>
+</head>
+<body>
+  <div ng-controller="app_1_ctrl">
+    <p>{{name}}</p>
+    <p>{{name0}}</p>
+    <div ng-model="name"></div>
+    <div ng-bind="name"></div>
+    <div ng-repeat="temp in items">
+      <span>{{temp}}</span>
+    </div>
+  </div>
+  <script src="../js/app-1.js" charset="utf-8"></script>
+</body>
+</html>
