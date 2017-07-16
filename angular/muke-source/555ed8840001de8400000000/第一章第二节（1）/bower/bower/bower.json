@@ -1,0 +1,28 @@
+{
+  "name": "TestBower",
+  "version": "1.0.0",
+  "authors": [
+    "zhang.xiaofei10 <damoqiongqiu@gmail.com>"
+  ],
+  "description": "Test Bower",
+  "main": "index.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "test"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
