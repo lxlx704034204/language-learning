@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="../lib/angular.min.js" charset="utf-8"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div ng-controller="dayCtrl">
+    <div>{{day}}</div>
+    <div>{{day1}}</div>
+    <div ng-bind="day1"></div>
+    <input type="text" ng-model="dy">
+    <div ng-repeat="(key,value) in list.listName">
+      {{key}} = {{value}}
+    </div>
+  </div>
+  <script src="../js/example.js" charset="utf-8"></script>
+</body>
+</html>
