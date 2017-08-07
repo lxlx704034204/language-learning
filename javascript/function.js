@@ -80,6 +80,9 @@ var reg1 = /\bis book\b/;
 var reg2 = /[a-z|1-9]/g;
 var reg3 = /\b/;
 console.log(reg1.test('is book'));
+//var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+var reg =/^(?=.*[a-zA-Z])(?=.*\d)(?=.*[~!@#$%^&*()_+`\-={}:";'<>?,.\/]).{6,18}$/;
+var reg=/^(?![^a-zA-Z]+$)(?!\D+$)/
 
 
 
