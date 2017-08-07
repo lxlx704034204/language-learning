@@ -108,24 +108,28 @@ var string3 = "123 1233 12345 123456";
 var regex3_1 = /\d{3}|123/g;
 var string3 = "123 1233 12345 123456";
 //console.log( string3.match(regex3) );
-console.log(string3.match(regex3_1))
+//console.log(string3.match(regex3_1))
 
 //3.2 贪婪匹配和惰性匹配 多选分支 也就是说，分支结构也是惰性的，即当前面的匹配上了，后面的就不再尝试了。
 
 var regex = /good|goodbye/g;
 var string = "goodbye";
-console.log( string.match(regex) );
+//console.log( string.match(regex) );
 
 // 匹配颜色
 var regColor = /#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})/g // [ '#fff', '#fff111', '#dfd111' ]
 var regColor = /#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})/g // [ '#fff', '#fff', '#dfd' ]
 var stringColor = '#fff #fff111 #dfd111';
-console.log(stringColor.match(regColor));
+//console.log(stringColor.match(regColor));
+var regex = /^([01][0-9]|[2][0-3]):[0-5][0-9]$/;
+//console.log( regex.test("23:59") );
+
+var regex = /^(hello)$/;
+//console.log( regex.test("hello1") );
 
 
-
-
-
+var regex = /^([0-9]{4}-(0[0-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01]))$/g;
+console.log(regex.test('3014-09-06'));
 
 
 
