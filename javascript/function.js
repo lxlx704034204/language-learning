@@ -131,6 +131,8 @@ var regex = /^(hello)$/;
 var regex = /^([0-9]{4}-(0[0-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01]))$/g;
 console.log(regex.test('3014-09-06'));
 
+var result = "helloa a a".replace(/(?!l)/g, '#');
+console.log(result);
 
 
 
