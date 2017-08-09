@@ -129,11 +129,60 @@ var regex = /^(hello)$/;
 
 
 var regex = /^([0-9]{4}-(0[0-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01]))$/g;
-console.log(regex.test('3014-09-06'));
+//console.log(regex.test('3014-09-06'));
 
 var result = "31234567893434343".replace(/^[3]/g, '#')
 var result = "helloa a a".replace(/(?!l)/g, '#');
+//console.log(result);
+
+var regx = /([1-4]{3,4})/g;
+var string = '123 12 1234';
+//console.log(string.match(regx));
+
+var regx = /(?=[1-2])(\d{3})/g;
+var reg = /[1-2](\d{2})/g;
+var string = '339 123 234';
+//console.log(string.match(reg));
+
+var reg = /(?=.*[0-9])(?=.*[a-z])(^[0-9A-Za-z]{3}$)/;
+var reg = /(?=.*[0-9])/;
+var reg = /(?=.*[0-9])(?=.*[a-z])/;
+//console.log(reg.test('a'));
+
+var regex = /(\d{4})-(\d{2})-(\d{2})/g;
+var string = "2017-03-34";
+//console.log( string.match(regex) );
+
+var reg = /([a-z])+/;
+var string = '123ax';
+//console.log(string.match(reg));
+
+// 出去标签
+var gg = /<[^>]+>/g;
+var string = '<div>234<234234> </div>';
+//console.log(string.replace(gg,''));
+
+var string = "12345";
+var regex = /(\d{1,3})(\d{1,3})/;
+console.log( string.match(regex) );
+
+var reg = /^[0-9]/;
+
+/ab?(c|de*)+|fg/
+
+var str = "Visit W3School";
+var patt = new RegExp("W3School","g");
+var result = patt.exec(str)
 console.log(result);
+
+
+
+
+
+
+
+
+
 
 
 
