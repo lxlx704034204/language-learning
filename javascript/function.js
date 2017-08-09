@@ -173,7 +173,49 @@ var reg = /^[0-9]/;
 var str = "Visit W3School";
 var patt = new RegExp("W3School","g");
 var result = patt.exec(str)
+var string = '123\n456\n345\n124';
+var reg = /\b/g;
+var reg1 = /$/g;
+var result = string.replace(reg,'#').replace(reg1,'*');
+//console.log(result);
+var string = "12345678"
+var result = string.replace(/(?!2)(?=(\d{1})+$)/g, ',');
+//console.log(result);
+
+var string = '123123';
+var result = string.replace(/(.*[1-9])$/g, ',');
 console.log(result);
+
+var reg = /(?!^[0-9]{6,12}$)^[0-9A-Za-z]{6,12}$/;
+
+console.log(reg.test('12345A'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
