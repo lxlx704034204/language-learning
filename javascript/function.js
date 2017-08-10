@@ -217,6 +217,12 @@ console.log(reg.test('12345A'));
 
 
 
+var reg = /^-?\d+$/;
+var string = '1-123';
+console.log(string.match(reg));
+
+var numPattern = /^-?\d*\.?\d+$/;
+var ePattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 
 
 
