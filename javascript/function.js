@@ -190,6 +190,12 @@ var reg = /(?!^[0-9]{6,12}$)^[0-9A-Za-z]{6,12}$/;
 
 console.log(reg.test('12345A'));
 
+// var u = navigator.userAgent, app = navigator.appVersion;
+// var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //android终端或者uc浏览器
+// var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+//alert('是否是Android：'+isAndroid);
+//alert('是否是iOS：'+isiOS);
+
 
 
 
