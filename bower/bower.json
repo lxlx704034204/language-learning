@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "homepage": "https://github.com/piaoluodemazha/language-learning",
+  "authors": [
+    "李明 <liming3@100tal.com>"
+  ],
+  "description": "",
+  "main": "",
+  "keywords": [
+    "lm"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

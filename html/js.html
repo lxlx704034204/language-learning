@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    // 构造函数模式
+    function Person(name, age, job) {
+      this.name = name;
+      this.age = age;
+      this.job = job;
+      this.sayName = function() {
+        console.log(this.name);
+      };
+    }
+
+    var person1 = new Person('liming', 23, 'web');
+    //console.log(person1);
+
+    function PersonPt() {
+
+    };
+
+    PersonPt.prototype.name = 'liming';
+    PersonPt.prototype.age = '23';
+    PersonPt.prototype.job = 'web';
+    PersonPt.prototype.sayName = function() {
+      console.log(this.name);
+    };
+
+    function PersonPt2() {
+
+    }
+
+    PersonPt2.prototype = {
+      age: 12,
+      name: 'liming',
+      job: 'web',
+      sayName: function() {
+        console.log(this.name);
+      }
+    }
+
+    function add(){
+
+    }
+    var ddd = new add();
+    console.log(ddd);
+    console.log(PersonPt.prototype);
+    console.log('---------------------------');
+    console.log(PersonPt2.prototype);
+  </script>
+</body>
+
+</html>
